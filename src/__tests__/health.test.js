@@ -1,4 +1,4 @@
-import getHealthStatus from '../src/health.js';
+import getHealthStatus from '../health.js';
 
 test('should return healthy for health > 50', () => {
   expect(getHealthStatus({ name: 'Маг', health: 90 })).toBe('healthy');
